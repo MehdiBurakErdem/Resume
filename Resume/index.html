@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="tr">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Özgeçmiş</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h1><strong><u>Mehdi Burak Erdem</u></strong></h1>
+
+        <div class="profile">
+            <img class="profile-img" src="Fotolar/Resim.jpeg" alt="Resim">
+            <p class="bio">  Ben Mehdi Burak Erdem, 2003 Ankara doğumluyum ve hala Ankara'da yaşıyorum Karabük'de öğrenciyim. Mezun olduktan sonra görüntü işleme ve yapay zeka alanında çalışmayı düşünüyorum, <b>şimdilik</b> genel olarak yatayda ilerliyorum ve ingilizceye odaklandım, daha derinlemesine bir alana inmedim.</p>
+        </div>
+
+        <hr>
+
+        <h2 class="section-title">Eğitim</h2>
+        <p><b>Üniversite:</b> Karabük Üniversitesi</p>
+        <p><b>Bölüm:</b> Bilgisayar Mühendisliği (2. Sınıf)</p>
+        <p></p>
+        <h2 class="section-title">Geçmis Eğitimler</h2>
+        <p><b>Okul:</b> Ecole 42 (Kocaeli)</p>
+        <p><b>Lise:</b> Arfen Fen Lisesi</p>
+        <p><b>Lise:</b> Gazi Mesleki Ve Teknik Anadolu Lisesi</p>
+        <p></p>
+
+        <h2 class="section-title">Yetenekler</h2>
+        <ul class="skills-list">
+            <li class="skills-item"><b>C </b><span class="stars">★★★★★</span></li>
+            <li class="skills-item"><b>HTML & CSS </b><span class="stars">★★★★☆</span></li>
+            <li class="skills-item"><b>JavaScript </b><span class="stars">★★★★☆</span></li>
+            <li class="skills-item"><b>PHP </b><span class="stars">★★★☆☆</span></li>
+            <li class="skills-item"><b>SQL </b><span class="stars">★★★☆☆</span></li>
+            <li class="skills-item"><b>Python </b><span class="stars">★★☆☆☆</span></li>
+        </ul>
+
+        <hr>
+
+        <div class="address">
+            <h3><u>Adres</u></h3>
+            <p><b>Ankara/Etimesgut Ahimesut Mahallesi 2212.Cadde No:12/8</b></p>    
+        </div>
+
+        <hr>
+          
+          
+        <h2 class="section-title">İletişim & Sosyal Medya</h2>
+        <ul class="contact-list">
+            <li class="contact-item">
+                <a href="mailto:2110205053@ogrenci.karabuk.edu.tr" target="_blank">
+                    <img src="Fotolar/gmail.png" alt="Mail">
+                </a>
+            </li>
+            <li class="contact-item">
+                <a href="https://www.linkedin.com/in/mehdi-erdem-818244243/" target="_blank">
+                    <img src="Fotolar/linkedin.png" alt="LinkedIn">
+                </a>
+            </li>
+            <li class="contact-item">
+                <a href="https://github.com/MehdiBurakErdem" target="_blank">
+                    <img src="Fotolar/github-mark.png" alt="GitHub">
+                </a>
+            </li>
+            <li class="contact-item">
+                <a href="https://www.instagram.com/mehdi_burak_erdem/">
+                    <img src="Fotolar/Instagram logo.png" alt="Instagram" title="Instagram">
+                </a>    
+            </li>
+            <li class="contact-item">
+                <a href="https://www.youtube.com/@andikgundikisler4895">
+                    <img src="Fotolar/youtube logo.png" alt="YouTube" title="YouTube">
+                </a> 
+            </li> 
+            <li class="contact-item">
+                <a href="https://wa.me/5522052003">
+                    <img src="Fotolar/whatsapp_logo.png" alt="WhatsApp" title="WhatsApp">
+                </a>
+            </li>
+            <li class="contact-item">
+                <a href="https://www.facebook.com/mehdiburak.erdem.90">
+                    <img src="Fotolar/Facebook logo.png" alt="Facebook" title="Facebook">
+                </a>
+            </li>
+        </ul>
+
+        <hr class="styled-hr">
+        <hr class="styled-hr">
+
+
+        <section class="contact-section">
+                <h2>Bana Ulaşın</h2>
+                <form id="contactForm">
+                    <label for="name"><b>Ad Soyad:</b></label>
+                    <input type="text" id="name" name="name" required>
+            
+                    <label><b>İletişim tercihi:</b></label>
+                    <div class="toggle-container" id="toggleMethod">
+                        <span class="label">Mail</span>
+                        <div class="switch">
+                            <div class="slider" id="sliderCircle"></div>
+                        </div>
+                        <span class="label">Tel</span>
+                    </div>
+            
+                    <div id="contactInput">
+                        <label for="email"><b>E-posta:</b></label>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com">
+                    </div>
+            
+                    <label for="message"><b>Mesaj:</b></label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+            
+                    <div class="form-buttons">
+                        <button type="submit"><b>Gönder</b></button>
+                        <div class="inactive-button"><b>Saygılar</b></div>
+                        <button type="button" id="resetButton"><b>Temizle</b></button>
+                    </div>
+                    
+                </form>
+                <div id="formResult"></div>
+        </section>
+        
+
+    </div>
+
+    <footer>
+        <p>Copyright © Mehdi 2025. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+

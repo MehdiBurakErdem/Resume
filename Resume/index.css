@@ -1,0 +1,288 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f1e3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    min-height: 100vh;
+    flex-direction: column;  
+}
+p{
+    margin: 13px 5px;
+}
+.container {
+    width: 60%;
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+h1:hover{
+    color: #000000;
+    font-weight: bolder;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.profile-img {
+    border-radius: 20%;
+    border: 4px solid #555;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.bio {
+    font-size: 18px;
+    color: #444;
+    line-height: 1.5;
+}
+hr {
+    border: 1px solid #aaa;
+    margin: 20px 0;
+}
+
+hr.styled-hr {
+    border: 1px solid #aaa;
+    margin: 1px;
+
+}
+.section-title {
+    font-size: 22px;
+    color: #222;
+    margin: 5px;
+    color: #cfad3e;
+}
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-item:hover {
+    font-size: 15px; 
+    transform: scale(1.1); 
+    color: #007BFF; 
+}
+
+.skills-item {
+    color: #3e98c7;;
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stars {
+    color: #6bc9ff;
+}
+.contact-list {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+    list-style: none;
+}
+.contact-item {
+    background: none;
+    border: none;
+}
+
+.contact-item:hover {
+    font-size: 18px; 
+    transform: scale(1.1); 
+}
+
+.contact-item a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+.contact-item img {
+    width: 100%;
+    height: auto;
+}
+.address {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.3;
+    padding: 5px;
+    background-color: #f4f4f4; 
+    border-radius: 8px;
+    text-align: left; /* Adresi sola yasladık */
+    margin-top: 5px;
+    font-weight: bold; 
+}
+h3,h2{
+    color: #cfad3e;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+    background-color: #f7f1e3;  
+    color: #333;
+    font-size: 12px;
+    margin-top: auto;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+/*Form için*/
+/* Genel form stili */
+form {
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.08);
+    width: 100%;
+    max-width: 600px;
+    margin: 40px auto;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.contact-section{
+    margin:5px 80px 5px 20px;
+}
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-sizing: border-box;
+    color: #333;
+    font-size: 15px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+/* Gönder butonu ve Temizle bbutonu */
+button[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Saygılar kutusu */
+.inactive-button {
+    padding: 10px 19%;
+    background-image: linear-gradient(to right, #0056b3, #dc3545);; 
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+    opacity: 0.8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#resetButton {
+    background-color: #dc3545;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+#resetButton:hover {
+    background-color: #a71d2a;
+}
+
+
+/* Toggle alanı */
+.toggle-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.toggle-container .label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Switch */
+.switch {
+    width: 50px;
+    height: 26px;
+    background-color: #ccc;
+    border-radius: 13px;
+    position: relative;
+    transition: background-color 0.3s;
+}
+
+.slider {
+    width: 22px;
+    height: 22px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: all 0.3s;
+}
+.switch.active {
+    background-color: #28a745;
+}
+.switch.active .slider {
+    left: 26px;
+}
+
+#formResult {
+    margin-top: 20px;
+    font-weight: 600;
+    color: green;
+    text-align: center;
+}
